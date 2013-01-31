@@ -5,7 +5,10 @@ Environment
 * Mac OS X 10.7.5
 * Postgresql 9.1.3
 * Rails 3.2.11
-* ruby1.9.3-p287
+* ruby1.9.3-p287 and p374
+* bundler 1.2.1
+* rake 10.0.3
+* rvm 1.11.3.3
 
 Setup
 -----
