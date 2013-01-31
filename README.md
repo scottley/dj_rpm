@@ -22,12 +22,15 @@ Trigger the Crash
 -----------------
 Start up delayed job:
 
-```
-  bundle exec script/delayed_job run
-```
+    $ bundle exec script/delayed_job run
+    delayed_job: process with pid 89879 started.
 
 In a separate prompt:
 
-```
-  rake dj_test:send_test_email
-```
+    rake dj_test:send_test_email
+
+After sending the email, delayed_job will crash with:
+
+    FATAL:  invalid frontend message type 1
+    PG::Error: connection not open
+    : UPDATE "delayed_jobs" SET locked_by = null, locked_at = null WHERE (locked_by = 'delayed_job host:xxxx.local pid:89879')
