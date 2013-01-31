@@ -1,0 +1,8 @@
+.bundle
+/bin
+/tmp/*
+!/tmp/.gitignore
+/log/*
+/config/database.yml
+/vendor/ruby/
+/public/manifest.yml
