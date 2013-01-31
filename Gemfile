@@ -2,7 +2,8 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.11'
 
-gem 'newrelic_rpm', '3.5.5.38'
+# gem 'newrelic_rpm', '3.5.4.34' # works
+gem 'newrelic_rpm', '3.5.5.38' # doesn't work
 
 gem 'delayed_job'
 gem 'delayed_job_active_record'
