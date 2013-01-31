@@ -31,7 +31,6 @@ ActiveRecord::Schema.define(:version => 20130131170418) do
 
   create_table "reservations", :force => true do |t|
     t.string   "name"
-    t.boolean  "email_sent"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
