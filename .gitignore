@@ -4,5 +4,6 @@
 !/tmp/.gitignore
 /log/*
 /config/database.yml
+/config/newrelic.yml
 /vendor/ruby/
 /public/manifest.yml
